@@ -5,7 +5,7 @@ body{
   .tarjeta {
   background-color: whitesmoke;
   width: 500px;
-  height: 305px;
+  height: 325px;
   margin: auto; /*centrar verticalmente*/
   position: absolute;
   top: 50%; /*centrar horizontalmente*/
@@ -16,6 +16,7 @@ body{
   .cabecera {
   /* background-color: brown; */
   overflow: hidden; /*toma el bloque completo e impide que objetos de abajo suban*/
+  height: 60px;
   }
   .cuerpo {
   /* background-color: orange; */
@@ -23,37 +24,37 @@ body{
   }
   .titulo h1 {
   /* background-color: green; */
-  font-size: 35px;
-  margin: 0px;
+  font-size: 25px;
+  margin-top: 20px;
   float: left;
   width: 50%;
   }
   .imagen img {
   /* background-color: red; */
   margin: 0px;
-  max-width: 60px;
+  max-width: 50px;
   float: right;
   }
   .informacion {
-  /* background-color: blue; */
+  /*background-color: blue; */
   float: right;
-  width: 50%;
+  width: 48%;
   }
   .informacion input {
   font-size: 18px;
   font-family: 'Handlee',cursive;
   border: none;
   border-bottom: 1px solid gray;
-  width: 240px;
-  margin-bottom: 10px;
+  width: 235px;
+  margin-bottom: 5px;
   padding: 5px;
   
   }
   .detalle {
-  /* background-color: yellow; */
+  /*background-color: yellow;*/
   font-size: 18px;
   float: left;
-  width: 50%;
+  width: 48%;
   }
   .pie {
   /* background-color: violet; */
